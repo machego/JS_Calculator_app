@@ -3,7 +3,56 @@ body {
     padding: 20px 0;
     margin: 0;
     text-align: center;
-    background-color: bisque;
+    
+}
+
+.container {
+    width: 350px;
+    height: 480px;
+    margin: auto;
+    padding-top: 52px;
+    border: 1px solid black;
+    border-radius: 6px;
+    align-items: center;
+    background-color: dimgray;
+}
+
+@font-face {
+    font-family: 'Space';
+    src: url(Space.ttf);
+}
+
+@font-face {
+    font-family: 'Timer';
+    src: url(CursedTimerUlil-Aznm.ttf);
 }
 
 
+h1 {  
+    text-align: center;  
+    padding: 3px;  
+    }  
+
+.display {
+        width: 145px;
+        color: white;
+        font-size: 1rem;
+        background-color: rgb(68, 66, 66);  
+        font-family: 'Timer';
+    }
+ 
+input  {  
+    width: 25px; 
+    background-color: rgb(131, 129, 129);  
+    color: white;  
+    border: 3px solid rgb(95, 94, 94);  
+    border-radius: 5px;  
+    padding: 26px;  
+    margin: 5px;  
+    font-size: 16px;    
+} 
+
+input:hover {
+    background-color: silver;
+} 
+  
